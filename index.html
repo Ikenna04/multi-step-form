@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta
+			name="viewport"
+			content="width=device-width, initial-scale=1.0" />
+		<title>Multi Step Form</title>
+		<link
+			rel="shortcut icon"
+			href="assets/img/favicon-32x32.png"
+			type="image/x-icon" />
+		<link
+			rel="stylesheet"
+			href="style.css" />
+	</head>
+	<body>
+		<div class="container">
+			<!-- Sidebar start -->
+
+			<ul class="sidebar">
+				<li>
+					<div class="radio show">1</div>
+					<div class="radio-name desktop">
+						<p>Step 1</p>
+						<h2>Your info</h2>
+					</div>
+				</li>
+				<li>
+					<div class="radio">2</div>
+					<div class="radio-name desktop">
+						<p>Step 2</p>
+						<h2>Select plan</h2>
+					</div>
+				</li>
+				<li>
+					<div class="radio">3</div>
+					<div class="radio-name desktop">
+						<p>Step 3</p>
+						<h2>Add-ons</h2>
+					</div>
+				</li>
+				<li>
+					<div class="radio radio">4</div>
+					<div class="radio-name desktop">
+						<p>Step 4</p>
+						<h2>Summary</h2>
+					</div>
+				</li>
+			</ul>
+			<!-- Sidebar end -->
+
+			<!-- Steps start -->
+			<ul class="steps-main">
+				<!-- Step 1 start -->
+				<li class="step show">
+					<div class="form-area">
+						<div class="form-head">
+							<h1>Personal info</h1>
+							<p>Please provide your name, email address, and phone number.</p>
+						</div>
+						<ul class="form">
+							<li>
+								<label for="name">Name</label>
+								<input
+									id="name"
+									name="name"
+									type="text"
+									placeholder="e.g. Stephen King"
+									class="cp" />
+								<p></p>
+							</li>
+							<li>
+								<label for="mail">Email Address</label>
+								<input
+									id="mail"
+									name="mail"
+									type="email"
+									placeholder="e.g. stephenking@lorem.com"
+									class="cp" />
+								<p></p>
+							</li>
+							<li>
+								<label for="phone-number">Phone Number</label>
+								<input
+									id="phone-number"
+									name="phone-number"
+									type="text"
+									placeholder="e.g. +1 234 567 890"
+									class="cp" />
+								<p></p>
+							</li>
+						</ul>
+					</div>
+					<ul class="btns">
+						<li></li>
+						<li class="cp">Next Step</li>
+					</ul>
+				</li>
+				<!-- Step 1 end -->
+
+				<!-- Step 2 start -->
+				<li class="step">
+					<div class="form-area">
+						<div class="form-head">
+							<h1>Select your plan</h1>
+							<p>You have the option of monthly or yearly billing.</p>
+						</div>
+						<div class="form form-2">
+							<ul class="options">
+								<li class="cp">
+									<img
+										src="assets/img/icon-arcade.svg"
+										alt="Arcade Icon" />
+									<div class="plan-description">
+										<h3>Arcade</h3>
+										<div class="price-area">
+											<span class="price monthly">$9/mo</span>
+											<div class="yearly">
+												<span class="price yearly">$90/yr</span>
+												<p>2 months free</p>
+											</div>
+										</div>
+									</div>
+								</li>
+								<li class="cp">
+									<img
+										src="assets/img/icon-advanced.svg"
+										alt="Advanced Icon" />
+									<div class="plan-description">
+										<h3>Advanced</h3>
+										<span class="price monthly">$12/mo</span>
+										<div class="yearly">
+											<span class="price yearly">$120/yr</span>
+											<p>2 months free</p>
+										</div>
+									</div>
+								</li>
+								<li class="cp">
+									<img
+										src="assets/img/icon-pro.svg"
+										alt="Pro Icon" />
+									<div class="plan-description">
+										<h3>Pro</h3>
+										<span class="price monthly">$15/mo</span>
+										<div class="yearly">
+											<span class="price yearly">$150/yr</span>
+											<p>2 months free</p>
+										</div>
+									</div>
+								</li>
+							</ul>
+							<div class="toggle-area">
+								<p>Monthly</p>
+								<div class="toggle cp">
+									<div class="toggle-ball"></div>
+								</div>
+								<p>Yearly</p>
+							</div>
+						</div>
+					</div>
+					<ul class="btns">
+						<li class="cp">Go Back</li>
+						<li class="cp">Next Step</li>
+					</ul>
+				</li>
+				<!-- Step 2 end -->
+
+				<!-- Step 3 start -->
+				<li class="step">
+					<div class="form-area">
+						<div class="form-head">
+							<h1>Pick add-ons</h1>
+							<p>Add-ons help enhance your gaming experience.</p>
+						</div>
+						<ul class="form form-3">
+							<li class="cp">
+								<div class="check-box">
+									<img
+										src="assets/img/icon-checkmark.svg"
+										alt="Check Icon" />
+								</div>
+								<div class="add-ons">
+									<div class="add-on-description">
+										<h3>Online service</h3>
+										<p>Access to multiplayer games</p>
+									</div>
+									<p class="monthly">+$1/mo</p>
+									<p class="yearly">+$10/yr</p>
+								</div>
+							</li>
+							<li class="cp">
+								<div class="check-box">
+									<img
+										src="assets/img/icon-checkmark.svg"
+										alt="Check Icon" />
+								</div>
+								<div class="add-ons">
+									<div class="add-on-description">
+										<h3>Larger storage</h3>
+										<p>Extra 1TB of cloud save</p>
+									</div>
+									<p class="monthly">+$2/mo</p>
+									<p class="yearly">+$20/yr</p>
+								</div>
+							</li>
+							<li class="cp">
+								<div class="check-box">
+									<img
+										src="assets/img/icon-checkmark.svg"
+										alt="Check Icon" />
+								</div>
+								<div class="add-ons">
+									<div class="add-on-description">
+										<h3>Customizable Profile</h3>
+										<p>Custom theme on your profile</p>
+									</div>
+									<p class="monthly">+$2/mo</p>
+									<p class="yearly">+$20/yr</p>
+								</div>
+							</li>
+						</ul>
+					</div>
+					<ul class="btns">
+						<li class="cp">Go Back</li>
+						<li class="cp">Next Step</li>
+					</ul>
+				</li>
+				<!-- Step 3 end -->
+
+				<!-- Step 4 start -->
+				<li class="step">
+					<div class="form-area">
+						<div class="form-head">
+							<h1>Finishing up</h1>
+							<p>Double-checck everything looks OK before confirming.</p>
+						</div>
+						<div class="form">
+							<ul class="summary">
+								<li>
+									<div class="summary-description">
+										<h3></h3>
+										<p class="change">change</p>
+									</div>
+									<h3 class="price"></h3>
+								</li>
+								<li>
+									<ul></ul>
+								</li>
+							</ul>
+							<div class="total">
+								<p>
+									Total (per
+									<span class="monthly">month)</span
+									><span class="yearly">year)</span>
+								</p>
+								<h2></h2>
+							</div>
+						</div>
+					</div>
+					<ul class="btns">
+						<li class="cp">Go Back</li>
+						<li class="cp">Confirm</li>
+					</ul>
+				</li>
+				<!-- Step 4 end -->
+
+				<!-- Step 5 start -->
+				<li class="step">
+					<div class="form-area">
+						<img
+							src="assets/img/icon-thank-you.svg"
+							alt="Thank You Icon" />
+						<h1>Thank you!</h1>
+						<p>
+							Thanks for confirming your subscription! We hope you have fun
+							using our platform. If you ever need support, please feel free to
+							email us at support@loremgaming.com.
+						</p>
+					</div>
+				</li>
+
+				<!-- Step 5 end -->
+			</ul>
+
+			<!-- Steps start -->
+		</div>
+		<script src="script.js"></script>
+	</body>
+</html>
